@@ -1,5 +1,5 @@
-# Welcome To OA's F2E Framework!
-OA 個人常用的前端工具總集合！ 
+# Welcome To OA's Instagram Maps!
+模擬 Instagram 地圖照片模式的範例。
 
 ---
 ## 聲明
@@ -8,7 +8,14 @@ OA 個人常用的前端工具總集合！
 
 <br/>
 ## 簡介
-* 個人習慣工具，有興趣的參考吧！
+* 模擬 Instagram 地圖照片模式的範例，利用 [Google Maps API](https://developers.google.com/maps/documentation/javascript/markers) 所提供的服務，再加上 [MarkerClusterer](https://googlemaps.github.io/js-marker-clusterer/docs/examples.html)、[MarkerWithLabel](http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1.8/docs/examples.html) 的使用，建立出類似 Instagram Maps 的服務。
+
+* 基本上是利用 [Google Maps API](https://developers.google.com/maps/documentation/javascript/markers) 的 **maps** 以及 **marker** 設計！
+
+* 再加上 [MarkerClusterer](https://googlemaps.github.io/js-marker-clusterer/docs/examples.html)、[MarkerWithLabel](http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1.8/docs/examples.html) 加強 Google Maps 上的表現。
+
+* Demo 範例頁面: [http://dev.maps.ioa.tw/](http://dev.maps.ioa.tw/)
+
 
 <br/>
 ## 關於
@@ -16,10 +23,16 @@ OA 個人常用的前端工具總集合！
 
 * E-mail - <comdan66@gmail.com>
 
-* 作品名稱 - OA's F2E Framework
+* 作品名稱 - OA's Instagram Maps
 
-* 最新版本 - 1.2
+* 最新版本 - 1.0.0
 
-* GitHub - [OA's F2E Framework](https://github.com/comdan66/f2e/)
+* GitHub - [OA-instagram_maps](https://github.com/comdan66/OA-instagram_maps/)
 
-* 更新日期 - 2015/05/26
+* 相關資源 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/markers)
+
+* 相關資源 - [MarkerClusterer](https://googlemaps.github.io/js-marker-clusterer/docs/examples.html)
+
+* 相關資源 - [MarkerWithLabel](http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1.8/docs/examples.html)
+
+* 更新日期 - 2015/06/29
