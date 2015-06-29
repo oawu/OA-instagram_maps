@@ -14,7 +14,7 @@
 
 * 再加上 [MarkerClusterer](https://googlemaps.github.io/js-marker-clusterer/docs/examples.html)、[MarkerWithLabel](http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1.8/docs/examples.html) 加強 Google Maps 上的表現。
 
-* Demo 範例頁面: [http://dev.maps.ioa.tw/](http://dev.maps.ioa.tw/)
+* Demo 範例頁面: [http://maps.ioa.tw/](http://maps.ioa.tw/)
 
 
 <br/>
