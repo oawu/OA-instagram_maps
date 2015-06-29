@@ -1,0 +1,94 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+
+@import "_oa";
+
+$borderBottomWidth: 3px;
+$navbarHeight: 35px;
+
+body {
+  padding-top: $navbarHeight + 20px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: inline-block;
+  width: 100%;
+  height: $navbarHeight;
+
+  text-align: center;
+
+
+  background-color: rgba(251, 120, 83, 1);
+  border-bottom: 1px solid rgba(233, 121, 90, 1);
+
+  z-index: 999;
+  @include opacity(.9);
+  @include box-shadow(0 0 5px rgba(245, 150, 122, 1));
+
+  > div {
+    display: inline-block;
+    margin: 0 auto;
+    max-width: $mainWidth;
+    width: 100%;
+    @media screen and (min-width: 0px) and (max-width: #{$mediaTabletWidth - 1px}) {
+      @include split-right(40px);
+    }
+    @media screen and (min-width: #{$mediaTabletWidth}) {
+      @include split-right(150px);
+    }
+    .l, .r {
+      height: 100%;
+      text-align: left;
+      @include clearfix();
+
+      a {
+        display: inline-block;
+        float: left;
+        line-height: $navbarHeight - $borderBottomWidth;
+        @include a(rgba(255, 255, 255, .9), rgba(255, 255, 255, 1));
+
+        border-bottom-width: $borderBottomWidth;
+        border-color: transparent;
+
+        @media screen and (min-width: 0px) and (max-width: #{$mediaTabletWidth - 1px}) {
+          padding: 0 3px;
+          font-size: 14px;
+        }
+        @media screen and (min-width: #{$mediaTabletWidth}) {
+          padding: 0 10px;
+          font-size: medium;
+        }
+
+        &.active, &:hover {
+          border-bottom-width: $borderBottomWidth;
+          border-color: rgba(255, 255, 255, .9);
+        }
+        &.active {
+          color: rgba(255, 255, 255, 1);
+          border-color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+    .l {
+      a {
+        + a {
+          margin-left: 10px;
+        }
+      }
+    }
+    .r {
+      a {
+        float: right;
+        + a {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
