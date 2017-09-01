@@ -6,7 +6,7 @@
 本作品授權採用 姓名標示-非商業性 2.0 台灣 (CC BY-NC 2.0 TW) 授權，詳見 [http://creativecommons.org/licenses/by-nc/2.0/tw/](http://creativecommons.org/licenses/by-nc/2.0/tw/)
 
 
-<br/>
+
 ## 簡介
 * 模擬 Instagram 地圖照片模式的範例，利用 [Google Maps API](https://developers.google.com/maps/documentation/javascript/markers) 所提供的服務，再加上 [MarkerClusterer](https://googlemaps.github.io/js-marker-clusterer/docs/examples.html)、[MarkerWithLabel](http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerwithlabel/1.1.8/docs/examples.html) 的使用，建立出類似 Instagram Maps 的服務。
 
@@ -17,7 +17,7 @@
 * Demo 範例頁面: [https://goo.gl/Q4JqTz](https://goo.gl/Q4JqTz)
 
 
-<br/>
+
 ## 關於
 * 作者名稱 - [OA Wu](http://www.ioa.tw/)
 
